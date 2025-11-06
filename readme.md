@@ -7,7 +7,7 @@ A simple HTTP service that greets users based on their name with specific valida
 - Go 1.24.5 or higher
 - [Task](https://taskfile.dev) (optional, for using Taskfile commands)
 
-## Running the Application
+## Running the Application
 
 ### Using Task (recommended)
 
@@ -23,7 +23,7 @@ go run ./cmd
 
 The server will start on `http://localhost:8080`
 
-## Running Tests
+## Running Tests
 
 ### Using Task
 
