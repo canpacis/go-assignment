@@ -1,0 +1,7 @@
+version: "3"
+
+tasks:
+  dev:
+    cmd: go run ./cmd
+  test:
+    cmd: go test -v ./...
