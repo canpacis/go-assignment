@@ -50,6 +50,7 @@ func main() {
 	Serve(mux)
 }
 
+// Handles running and the graceful shutdown of the server
 func Serve(h http.Handler) {
 	server := &http.Server{
 		Addr:    ":8080",
